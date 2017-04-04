@@ -1,0 +1,23 @@
+{
+    "name": "agilesdesign/myrtle-docks",
+    "description": "Dock System for Myrtle WMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin Seliga",
+            "email": "jseliga@agilesdesign.com"
+        }
+    ],
+    "require": {
+        "agilesdesign/flasher": "1.0.0-alpha.1"
+    },
+    "autoload": {
+        "classmap": [
+            "src/database",
+            "src/Myrtle/Docks"
+        ],
+        "psr-4": {
+            "Myrtle\\Docks\\": "src/Docks"
+        }
+    }
+}
