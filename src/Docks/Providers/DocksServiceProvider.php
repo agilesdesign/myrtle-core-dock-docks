@@ -16,7 +16,7 @@ class DocksServiceProvider extends ServiceProvider
     public function register()
     {
         $this->registerAppBindings();
-//        $this->registerAdditionalServiceProviders();
+        $this->registerAdditionalServiceProviders();
     }
 
     /**
@@ -36,6 +36,6 @@ class DocksServiceProvider extends ServiceProvider
      */
     protected function registerAdditionalServiceProviders()
     {
-        App::register(DocksManagerServiceProvider::class);
+        app()->register(DocksManagerServiceProvider::class);
     }
 }
