@@ -4,8 +4,8 @@ namespace Myrtle\Core\Docks\Providers;
 
 use Myrtle\Core\Docks\Dock;
 use Illuminate\Support\Str;
-use Myrtle\Roles\Models\Role;
-use Myrtle\Users\Models\User;
+use Myrtle\Core\Roles\Models\Role;
+use Myrtle\Core\Users\Models\User;
 use Exceptum\Facades\Exceptum;
 use Illuminate\Console\Command;
 use Myrtle\Core\Docks\Facades\Docks;
