@@ -6,7 +6,7 @@ use Illuminate\Support\Str;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Config;
 use Myrtle\Core\Docks\Facades\Docks;
-use Myrtle\Permissions\Models\Traits\DefinesAbilities;
+use Myrtle\Core\Permissions\Models\Traits\DefinesAbilities;
 
 abstract class Dock
 {
