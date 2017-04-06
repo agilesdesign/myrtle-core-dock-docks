@@ -17,7 +17,7 @@
             "src/Myrtle/Core/Docks"
         ],
         "psr-4": {
-            "Myrtle\\Docks\\": "src/Docks"
+            "Myrtle\\Core\\Docks\\": "src/Docks"
         }
     }
 }
