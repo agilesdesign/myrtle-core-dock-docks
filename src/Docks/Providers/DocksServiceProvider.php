@@ -4,7 +4,7 @@ namespace Myrtle\Core\Docks\Providers;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
-use Myrtle\Docks\Repository;
+use Myrtle\Core\Docks\Repository;
 
 class DocksServiceProvider extends ServiceProvider
 {
