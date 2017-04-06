@@ -5,7 +5,7 @@ namespace Myrtle\Core\Docks;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Config;
-use Myrtle\Docks\Facades\Docks;
+use Myrtle\Core\Docks\Facades\Docks;
 use Myrtle\Permissions\Models\Traits\DefinesAbilities;
 
 abstract class Dock

@@ -2,7 +2,7 @@
 
 namespace Myrtle\Core\Docks\Http\Requests;
 
-use Myrtle\Docks\Dock;
+use Myrtle\Core\Docks\Dock;
 use Myrtle\Permissions\Models\Ability;
 use Illuminate\Foundation\Http\FormRequest;
 

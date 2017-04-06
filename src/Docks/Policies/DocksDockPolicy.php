@@ -4,7 +4,7 @@ namespace Myrtle\Core\Docks\Policies;
 
 use App\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
-use Myrtle\Docks\DocksDock;
+use Myrtle\Core\Docks\DocksDock;
 
 class DocksDockPolicy
 {

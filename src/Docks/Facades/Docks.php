@@ -2,7 +2,7 @@
 
 namespace Myrtle\Core\Docks\Facades;
 
-use Myrtle\Docks\Repository;
+use Myrtle\Core\Docks\Repository;
 use Illuminate\Support\Facades\Facade;
 
 /**

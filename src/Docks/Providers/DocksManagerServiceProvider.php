@@ -2,13 +2,13 @@
 
 namespace Myrtle\Core\Docks\Providers;
 
-use Myrtle\Docks\Dock;
+use Myrtle\Core\Docks\Dock;
 use Illuminate\Support\Str;
 use Myrtle\Roles\Models\Role;
 use Myrtle\Users\Models\User;
 use Exceptum\Facades\Exceptum;
 use Illuminate\Console\Command;
-use Myrtle\Docks\Facades\Docks;
+use Myrtle\Core\Docks\Facades\Docks;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\View;

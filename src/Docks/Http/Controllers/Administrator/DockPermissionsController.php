@@ -2,11 +2,11 @@
 
 namespace Myrtle\Core\Docks\Http\Controllers\Administrator;
 
-use Myrtle\Docks\Dock;
+use Myrtle\Core\Docks\Dock;
 use Flasher\Support\Notifier;
 use Illuminate\Http\Response;
 use App\Http\Controllers\Controller;
-use Myrtle\Docks\Http\Requests\SaveDockPermissionsForm;
+use Myrtle\Core\Docks\Http\Requests\SaveDockPermissionsForm;
 
 class DockPermissionsController extends Controller
 {

@@ -2,11 +2,11 @@
 
 namespace Myrtle\Core\Docks\Http\Controllers\Administrator;
 
-use Myrtle\Docks\Dock;
+use Myrtle\Core\Docks\Dock;
 use Illuminate\Http\Response;
-use Myrtle\Docks\Facades\Docks;
+use Myrtle\Core\Docks\Facades\Docks;
 use App\Http\Controllers\Controller;
-use Myrtle\Docks\Policies\DocksDockPolicy;
+use Myrtle\Core\Docks\Policies\DocksDockPolicy;
 
 class DocksController extends Controller
 {

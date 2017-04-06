@@ -2,10 +2,10 @@
 
 namespace Myrtle\Core\Docks\Http\Controllers\Administrator;
 
-use Myrtle\Docks\Dock;
+use Myrtle\Core\Docks\Dock;
 use Flasher\Support\Notifier;
 use App\Http\Controllers\Controller;
-use Myrtle\Docks\Http\Requests\SaveDockSettingsForm;
+use Myrtle\Core\Docks\Http\Requests\SaveDockSettingsForm;
 
 class DockSettingsController extends Controller
 {
