@@ -11,6 +11,7 @@
     ],
     "repositories" : [
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-addresses.git"},
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-configurations.git"},
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-permissions.git"},
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-phones.git"},
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-roles.git"},
@@ -19,6 +20,7 @@
     ],
     "require": {
         "agilesdesign/flasher": "1.0.0-alpha.1",
+        "agilesdesign/myrtle-core-dock-configurations": "dev-master",
         "agilesdesign/myrtle-core-dock-roles": "dev-master",
         "agilesdesign/myrtle-core-dock-users": "dev-master",
         "agilesdesign/exceptum": "1.0.0-alpha.1"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7756a28bcd530f08921d2c4ad0a7c0c",
+    "content-hash": "42ab4d47482f3879f384c64bf798d2c9",
     "packages": [
         {
             "name": "agilesdesign/exceptum",
@@ -87,12 +87,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/agilesdesign/myrtle-core-dock-addresses.git",
-                "reference": "a534d6e9a9ecc48a6a0b4e7c8d357329df8f0bbb"
+                "reference": "aa4927ac410535c041f7e69d5d2f6fab478d6863"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-addresses/zipball/a534d6e9a9ecc48a6a0b4e7c8d357329df8f0bbb",
-                "reference": "a534d6e9a9ecc48a6a0b4e7c8d357329df8f0bbb",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-addresses/zipball/aa4927ac410535c041f7e69d5d2f6fab478d6863",
+                "reference": "aa4927ac410535c041f7e69d5d2f6fab478d6863",
                 "shasum": ""
             },
             "require": {
@@ -123,7 +123,46 @@
                 "source": "https://github.com/agilesdesign/myrtle-core-dock-addresses/tree/master",
                 "issues": "https://github.com/agilesdesign/myrtle-core-dock-addresses/issues"
             },
-            "time": "2017-04-06 16:08:34"
+            "time": "2017-04-07 11:35:49"
+        },
+        {
+            "name": "agilesdesign/myrtle-core-dock-configurations",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agilesdesign/myrtle-core-dock-configurations.git",
+                "reference": "9863680072a7ddabf25f50f02244a19f2184e783"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-configurations/zipball/9863680072a7ddabf25f50f02244a19f2184e783",
+                "reference": "9863680072a7ddabf25f50f02244a19f2184e783",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/Myrtle/Core/Docks"
+                ],
+                "psr-4": {
+                    "Myrtle\\Core\\Configurations\\": "src/Configurations"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Seliga",
+                    "email": "jseliga@agilesdesign.com"
+                }
+            ],
+            "description": "Core Configurations Docks for Myrtle WMS",
+            "support": {
+                "source": "https://github.com/agilesdesign/myrtle-core-dock-configurations/tree/master",
+                "issues": "https://github.com/agilesdesign/myrtle-core-dock-configurations/issues"
+            },
+            "time": "2017-04-07 11:37:27"
         },
         {
             "name": "agilesdesign/myrtle-core-dock-permissions",
@@ -131,12 +170,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/agilesdesign/myrtle-core-dock-permissions.git",
-                "reference": "735c9a5673e209127450f84ee84a9613eae994db"
+                "reference": "2baf7477c1ed521196970f40d3400c36a9bab281"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-permissions/zipball/735c9a5673e209127450f84ee84a9613eae994db",
-                "reference": "735c9a5673e209127450f84ee84a9613eae994db",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-permissions/zipball/2baf7477c1ed521196970f40d3400c36a9bab281",
+                "reference": "2baf7477c1ed521196970f40d3400c36a9bab281",
                 "shasum": ""
             },
             "require-dev": {
@@ -166,7 +205,7 @@
                 "source": "https://github.com/agilesdesign/myrtle-core-dock-permissions/tree/master",
                 "issues": "https://github.com/agilesdesign/myrtle-core-dock-permissions/issues"
             },
-            "time": "2017-04-06 16:53:33"
+            "time": "2017-04-07 11:30:45"
         },
         {
             "name": "agilesdesign/myrtle-core-dock-phones",
@@ -174,12 +213,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/agilesdesign/myrtle-core-dock-phones.git",
-                "reference": "a69391991e1c594573643c9c36df2eccd2cc113f"
+                "reference": "d89a8056850c69aa69622a4effa748da535f41d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-phones/zipball/a69391991e1c594573643c9c36df2eccd2cc113f",
-                "reference": "a69391991e1c594573643c9c36df2eccd2cc113f",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-phones/zipball/d89a8056850c69aa69622a4effa748da535f41d9",
+                "reference": "d89a8056850c69aa69622a4effa748da535f41d9",
                 "shasum": ""
             },
             "require": {
@@ -209,7 +248,7 @@
                 "source": "https://github.com/agilesdesign/myrtle-core-dock-phones/tree/master",
                 "issues": "https://github.com/agilesdesign/myrtle-core-dock-phones/issues"
             },
-            "time": "2017-04-05 00:15:18"
+            "time": "2017-04-07 11:43:09"
         },
         {
             "name": "agilesdesign/myrtle-core-dock-roles",
@@ -217,12 +256,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/agilesdesign/myrtle-core-dock-roles.git",
-                "reference": "cf8840e882cd94108adff2b6a988e651d066736b"
+                "reference": "9b1ba0fc67f7dccc726e74ca7e1592e3fc954674"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-roles/zipball/cf8840e882cd94108adff2b6a988e651d066736b",
-                "reference": "cf8840e882cd94108adff2b6a988e651d066736b",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-roles/zipball/9b1ba0fc67f7dccc726e74ca7e1592e3fc954674",
+                "reference": "9b1ba0fc67f7dccc726e74ca7e1592e3fc954674",
                 "shasum": ""
             },
             "type": "library",
@@ -249,7 +288,7 @@
                 "source": "https://github.com/agilesdesign/myrtle-core-dock-roles/tree/master",
                 "issues": "https://github.com/agilesdesign/myrtle-core-dock-roles/issues"
             },
-            "time": "2017-04-06 16:19:04"
+            "time": "2017-04-07 11:32:12"
         },
         {
             "name": "agilesdesign/myrtle-core-dock-users",
@@ -257,12 +296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/agilesdesign/myrtle-core-dock-users.git",
-                "reference": "639d06e8c16e1bb699ee7504cfe040c988b8b3a8"
+                "reference": "e651539463cba099f3a6a3e08e61f7eeb2747089"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-users/zipball/639d06e8c16e1bb699ee7504cfe040c988b8b3a8",
-                "reference": "639d06e8c16e1bb699ee7504cfe040c988b8b3a8",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-users/zipball/e651539463cba099f3a6a3e08e61f7eeb2747089",
+                "reference": "e651539463cba099f3a6a3e08e61f7eeb2747089",
                 "shasum": ""
             },
             "require": {
@@ -300,7 +339,7 @@
                 "source": "https://github.com/agilesdesign/myrtle-core-dock-users/tree/master",
                 "issues": "https://github.com/agilesdesign/myrtle-core-dock-users/issues"
             },
-            "time": "2017-04-06 17:04:40"
+            "time": "2017-04-07 11:31:24"
         }
     ],
     "packages-dev": [
@@ -402,7 +441,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2016-05-12T17:23:41+00:00"
+            "time": "2016-05-12 17:23:41"
         },
         {
             "name": "erusev/parsedown",
@@ -539,12 +578,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "6553e3371d228da5c6f1c0422327ffd19ffa183b"
+                "reference": "591e89828b8cbecf52cdaaff091a43d296cb1d84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/6553e3371d228da5c6f1c0422327ffd19ffa183b",
-                "reference": "6553e3371d228da5c6f1c0422327ffd19ffa183b",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/591e89828b8cbecf52cdaaff091a43d296cb1d84",
+                "reference": "591e89828b8cbecf52cdaaff091a43d296cb1d84",
                 "shasum": ""
             },
             "require": {
@@ -660,7 +699,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-04-06T14:06:58+00:00"
+            "time": "2017-04-07T13:49:47+00:00"
         },
         {
             "name": "laravel/laravel",
@@ -762,7 +801,7 @@
                 "laravel",
                 "psysh"
             ],
-            "time": "2017-01-31T18:01:41+00:00"
+            "time": "2017-01-31 18:01:41"
         },
         {
             "name": "league/flysystem",
@@ -845,7 +884,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2017-03-22T15:43:14+00:00"
+            "time": "2017-03-22 15:43:14"
         },
         {
             "name": "monolog/monolog",
@@ -923,7 +962,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2017-03-20T10:21:06+00:00"
+            "time": "2017-03-20 10:21:06"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -1020,7 +1059,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2017-02-06T22:02:47+00:00"
+            "time": "2017-02-06 22:02:47"
         },
         {
             "name": "nikic/php-parser",
@@ -1071,7 +1110,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2017-03-05T18:23:57+00:00"
+            "time": "2017-03-05 18:23:57"
         },
         {
             "name": "paragonie/random_compat",
@@ -1166,7 +1205,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2016-10-10 12:19:37"
         },
         {
             "name": "psy/psysh",
@@ -1321,7 +1360,7 @@
                 "identifier",
                 "uuid"
             ],
-            "time": "2017-03-26T21:03:42+00:00"
+            "time": "2017-03-26 21:03:42"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1375,7 +1414,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2017-02-24T19:52:51+00:00"
+            "time": "2017-02-24 19:52:51"
         },
         {
             "name": "symfony/console",
@@ -1443,7 +1482,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-04-05T15:05:16+00:00"
+            "time": "2017-04-05 15:05:16"
         },
         {
             "name": "symfony/css-selector",
@@ -1496,7 +1535,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-21T10:07:34+00:00"
+            "time": "2017-02-21 10:07:34"
         },
         {
             "name": "symfony/debug",
@@ -1552,7 +1591,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2017-04-04T07:47:41+00:00"
+            "time": "2017-04-04 07:47:41"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1615,7 +1654,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2017-04-04T07:47:41+00:00"
+            "time": "2017-04-04 07:47:41"
         },
         {
             "name": "symfony/finder",
@@ -1664,7 +1703,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-20T10:06:58+00:00"
+            "time": "2017-03-20 10:06:58"
         },
         {
             "name": "symfony/http-foundation",
@@ -1672,12 +1711,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "12559880243e8732e5cf831102cf424132e564c6"
+                "reference": "45720a3d2428d7c248979112f823d4fcfa668297"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/12559880243e8732e5cf831102cf424132e564c6",
-                "reference": "12559880243e8732e5cf831102cf424132e564c6",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/45720a3d2428d7c248979112f823d4fcfa668297",
+                "reference": "45720a3d2428d7c248979112f823d4fcfa668297",
                 "shasum": ""
             },
             "require": {
@@ -1717,7 +1756,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-04-04T18:59:08+00:00"
+            "time": "2017-04-07T06:15:11+00:00"
         },
         {
             "name": "symfony/http-kernel",
@@ -1725,12 +1764,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "8c6dab38cf66fe32f8f58c30cd4fdb29a5a8d641"
+                "reference": "2ee104eefbbc601ace8b5f3669a43551900839b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/8c6dab38cf66fe32f8f58c30cd4fdb29a5a8d641",
-                "reference": "8c6dab38cf66fe32f8f58c30cd4fdb29a5a8d641",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/2ee104eefbbc601ace8b5f3669a43551900839b4",
+                "reference": "2ee104eefbbc601ace8b5f3669a43551900839b4",
                 "shasum": ""
             },
             "require": {
@@ -1802,7 +1841,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2017-04-06T17:34:08+00:00"
+            "time": "2017-04-07T16:56:33+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1861,7 +1900,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14T01:06:16+00:00"
+            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "symfony/process",
@@ -1910,7 +1949,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-27T18:09:43+00:00"
+            "time": "2017-03-27 18:09:43"
         },
         {
             "name": "symfony/routing",
@@ -1988,7 +2027,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-03-22T19:45:31+00:00"
+            "time": "2017-03-22 19:45:31"
         },
         {
             "name": "symfony/translation",
@@ -2053,7 +2092,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-04-05T21:43:54+00:00"
+            "time": "2017-04-05 21:43:54"
         },
         {
             "name": "symfony/var-dumper",
@@ -2119,7 +2158,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2017-03-25T14:07:47+00:00"
+            "time": "2017-03-25 14:07:47"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -2216,12 +2255,13 @@
                 "env",
                 "environment"
             ],
-            "time": "2017-02-03T22:05:04+00:00"
+            "time": "2017-02-03 22:05:04"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "agilesdesign/myrtle-core-dock-configurations": 20,
         "agilesdesign/myrtle-core-dock-roles": 20,
         "agilesdesign/myrtle-core-dock-users": 20
     },
