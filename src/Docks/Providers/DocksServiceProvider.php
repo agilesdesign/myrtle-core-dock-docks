@@ -16,7 +16,7 @@ class DocksServiceProvider extends ServiceProvider
     public function register()
     {
         $this->registerAppBindings();
-        //$this->registerAdditionalServiceProviders();
+        $this->registerAdditionalServiceProviders();
     }
 
     /**
