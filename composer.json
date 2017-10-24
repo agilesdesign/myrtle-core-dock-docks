@@ -19,11 +19,11 @@
         {"type": "vcs","url": "https://github.com/agilesdesign/exceptum.git"}
     ],
     "require": {
-        "agilesdesign/flasher": "1.0.0-alpha.1",
+        "agilesdesign/flasher": "dev-master",
         "agilesdesign/myrtle-core-dock-configurations": "dev-master",
         "agilesdesign/myrtle-core-dock-roles": "dev-master",
         "agilesdesign/myrtle-core-dock-users": "dev-master",
-        "agilesdesign/exceptum": "1.0.0-alpha.1"
+        "agilesdesign/exceptum": "dev-master"
     },
     "require-dev": {
         "laravel/laravel": "5.4.*"
